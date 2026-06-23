@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>select your skills:</label>
+        <input type ="checkbox" id ="j" name ="skill" value=" "python>
+        <label for ></label>
+    </form>
+
+</body>
+</html>

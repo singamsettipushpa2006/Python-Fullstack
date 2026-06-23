@@ -1,0 +1,25 @@
+body {
+  background-color: red;
+}
+div.section1 {
+  background-color: blue;
+  color: blanchedalmond;
+}
+div.section2 {
+  background-color: yellow;
+  color: pink;
+}
+div.section1,
+h1 {
+  text-align: center;
+  color: aqua;
+  background-color: black;
+}
+body {
+  background-color: green;
+}
+div.section2 > h1 {
+  text-align: center;
+  color: red;
+  background-color: bisque;
+}
