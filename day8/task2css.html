@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      .parent {
+        background-color: black;
+        height: 600px;
+        width: 600px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+      }
+      .parent > div {
+        font-size: 100px;
+        height: 150px;
+        width: 150px;
+      }
+
+      .child1 {
+        background-color: aqua;
+      }
+      .child2 {
+        background-color: greenyellow;
+      }
+      .child3 {
+        background-color: violet;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child1">1</div>
+      <div class="child2">2</div>
+      <div class="child3">3</div>
+    </div>
+  </body>
+</html>
