@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      img {
+        width: 150px;
+        height: auto;
+      }
+      #car {
+        animation-name: startcar;
+        animation-duration: 5s;
+        animation-delay: 0s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+      }
+      @keyframes startcar {
+        from {
+          transform: translatex(0px) scale(0%);
+        }
+        to {
+          transform: translatex(100px) scale(30%);
+        }
+      }
+      #bike {
+        animation: startbike;
+        animation-duration: 5s;
+        animation-direction: reverse;
+        animation-delay: 0s;
+        animation-timing-function: ease;
+        animation-iteration-count: 2;
+      }
+      @keyframes startbike {
+        from {
+          transform: translatex(0px);
+        }
+        to {
+          transform: translateX(1100px);
+        }
+      }
+      #google {
+        animation: startgoogle;
+        animation-duration: 5s;
+        animation-delay: 0s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: 3;
+      }
+      @keyframes startgoogle {
+        from {
+          transform: translatex(0px) rotate(0deg);
+        }
+        to {
+          transform: translateX(1100px) rotate(360deg);
+        }
+      }
+      #truck {
+        animation: starttruck;
+        animation-duration: 5s;
+        animation-delay: 0s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: 4;
+      }
+      @keyframes starttruck {
+        from {
+          transform: translatex(0px);
+        }
+        to {
+          transform: translateX(1100px);
+        }
+      }
+      #ship {
+        animation: startship;
+        animation-duration: 5s;
+        animation-delay: 0s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 5;
+        animation-fill-mode: forwards;
+      }
+      #ship:hover {
+        animation-play-state: paused;
+      }
+      @keyframes startship {
+        from {
+          transform: translatex(0px);
+        }
+        to {
+          transform: translateX(1100px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img id="car" src="carimage.png" alt="error" /><br />
+    <img id="bike" src="BikeImage1.jfif" alt="error" /><br /><br />
+    <img id="google" src="googleimg.gif" alt="error" /><br />
+    <img id="truck" src="truckimg.jfif" alt="error" /><br />
+    <img id="ship" src="shipimg.jfif" alt="error" />
+  </body>
+</html>
