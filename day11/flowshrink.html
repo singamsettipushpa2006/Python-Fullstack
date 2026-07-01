@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      .parent {
+        border: 5px solid black;
+        width: 600px;
+        height: 100px;
+        display: flex;
+        gap: 5px;
+      }
+      .parent > div {
+        flex-shrink: 1;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child1"></div>
+      <div class="child2"></div>
+      <div class="child3"></div>
+    </div>
+  </body>
+</html>
